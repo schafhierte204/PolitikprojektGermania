@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Carlito,sans-serif
+}
+
+body{
+    background-color:burlywood;
+}
+
+nav>a{
+    margin: 0;
+    border: 1px solid;
+    padding: 0.5em;
+}
+
+#header{
+    border-bottom: 1px solid;
+    padding-bottom: 1em;
+}
