@@ -1,12 +1,20 @@
 *{
     box-sizing: border-box;
-    margin: 0 auto;
-    text-align: center;
+    text-align: justify;
+    justify-content: center;
     font-family: Carlito,sans-serif
 }
 
 body{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
     background-color:burlywood;
+}
+
+div {
+    border: 1px solid black;
+
 }
 
 nav>a{
@@ -18,4 +26,9 @@ nav>a{
 #header{
     border-bottom: 1px solid;
     padding-bottom: 1em;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
 }
