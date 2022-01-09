@@ -1,20 +1,36 @@
 *{
     box-sizing: border-box;
     text-align: justify;
-    justify-content: center;
     font-family: Carlito,sans-serif
+}
+html{
+    background-color: white;
 }
 
 body{
     width: 100%;
     max-width: 1000px;
+    border: 3px black;
     margin: 0 auto;
+    padding: 2em;
     background-color:burlywood;
 }
 
-div {
-    border: 1px solid black;
+h1{
+    text-align: center;
+}
 
+h2{
+    text-align:center;
+}
+
+
+img {
+    width: 60%;
+}
+
+div {
+    text-align: center;
 }
 
 nav>a{
@@ -26,6 +42,7 @@ nav>a{
 #header{
     border-bottom: 1px solid;
     padding-bottom: 1em;
+    text-align: center;
 }
 
 img {
